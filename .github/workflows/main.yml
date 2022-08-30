@@ -32,7 +32,7 @@ jobs:
         uses: docker/build-push-action@v3.1.1
         with:
           file: ./kube-news/src/Dockerfile
-          context: /kube-news./src 
+          context: ./kube-news/src 
           push: true
           tags: |
             lfmoraes/kube-news:latest
